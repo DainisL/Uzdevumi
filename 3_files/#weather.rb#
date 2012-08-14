@@ -1,0 +1,18 @@
+require 'nokogiri'
+class Weather
+
+attr_accessor :file
+
+  def initialize(file_url)
+  	@file = File.open(file_url)
+    @xmldoc = Nokogiri::XML(@file)
+    @xmldoc.xpath("//*[@* [temperature]]")
+    file.close
+  end  
+end
+
+Kuldiga = Weather.new("./weather_kuldiga.xml")
+# Ventspils = Weather.new("./weather_ventspils.xml")
+
+puts Kuldiga
+
