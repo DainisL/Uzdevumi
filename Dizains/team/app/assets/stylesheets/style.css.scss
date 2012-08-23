@@ -1,0 +1,242 @@
+@import url(http://fonts.googleapis.com/css?family=Francois+One);
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
+body{
+  background-color:#181818;
+  height:80%;
+}
+#wrapper{
+  width:780px;
+  margin-left:auto;
+  margin-right:auto;
+}
+.logo img{
+  width:212px;
+  margin-top:5px;
+  display:inline;
+  float: left;
+  position:absolute;
+     }
+.right-menu {
+  width:100%;
+  text-align: right;
+  float:right;
+  color:#4b4b4b;
+  font-size:12px;
+  display:inline;
+  position: relative;
+
+  ul{
+    display:inline;
+    list-style:none;
+    li{
+      font-size: 10px;
+      display:inline;
+      color:#4d4d4d;
+      margin-left:4px;  
+      float:right;
+
+    }
+  }
+}
+.gallery-title{
+  margin-top:32px;
+  color:#fff;
+  margin-left:632px;
+  float:right;
+  width: 350px;
+  text-align: right;
+  display:inline;
+  position: relative;
+}
+ .content{
+  width:778px;
+  height: 400px;
+  margin-top:144;
+  display:inline;
+  .galery img{
+    padding-top:10px;
+
+  }
+  .body{
+    font-size:20px;
+    color:#868686;
+  }
+  .text-link{
+    text-align:right;
+    border-bottom-style: dashed;
+    border-width:1px;
+    color:#868686;
+    font-size:20px;
+    
+  }
+    .info-blocks{
+      .margin-both{
+       margin:0px 95px;
+      }
+
+        p{
+          font-size:12px;
+        }
+      .info{
+        color:#c32033;
+        width:194px;
+        float:left;
+        font-size: 30px;
+          h1{
+            margin:0px;
+          }
+        ul{
+          margin:0px;
+          padding: 0px;
+          list-style:none;
+          border-color:#4b4b4b;
+          border-top-style:dashed; 
+          border-bottom-style:dashed;
+          border-width:1px;
+            li{
+              color:#3a3a3a;
+              font-size:18px;       
+            }
+        }
+      }
+    }
+  .join{
+    h1{
+      padding-top:32px;
+      padding-bottom:32px;
+      padding-left:10px;
+      font-size:25px;
+      font-family: 'Francois One', sans-serif;
+    }
+    margin-top:190px;
+    height:90px;
+    background-color:#c22131;
+    color:#fff;    
+  }
+  .news{
+    float:left;
+    width:560px;
+    border-width:1px;
+    border-color:#3e3e3e;
+    border-right-style:dashed;
+    border-right-radius:2px;
+    img{
+      width:400px;
+      border-width:1px;
+      border-color:#3e3e3e;
+      border-bottom-style:dashed;
+      border-bottom-radius:25px;
+      padding-left:70px;
+      padding-top:25px;
+      padding-right:60px;
+      padding-bottom:25px;
+    }
+    ul{
+      width: 100%;
+      padding-left:200px;
+      display:inline-block;       
+      li{
+        display:inline-block;
+        background:#1e1e1e;
+        color:#fff;
+        margin-left:6px;
+        padding:3px;  
+        float: left;
+      }
+    }
+    h1{
+      margin:0px;
+      color:#c22131;
+      }
+    .time{
+      padding-bottom:35px;
+      font-size:12px;
+      color:#fff;
+      }
+    .text{
+      margin-right:30px;
+      color:#fff;
+      font-size:12px;
+      padding-bottom:25px;
+      padding-right:10px;
+      border-bottom-style:dashed;
+      border-bottom-color:#3e3e3e;
+      border-width:1px;
+        }
+      iframe{
+        border-bottom-style:dashed;
+        border-bottom-width:1px;
+        border-bottom-color:#3e3e3e;
+        padding-bottom:25px;
+        padding-top:25px;
+        padding-right:60px;
+        padding-left:70px;
+            } 
+  }
+
+        .aside {
+          margin-top:2px;
+          width: 212px;
+          float:right;
+          .line{
+            padding-top:10px;
+            margin-bottom:10px;
+          }
+          h1{
+            padding-top:12px;
+            text-align:right;
+            width:210;
+            height: 35px;
+            font-size:22px;
+            margin:0px;
+            color:#fff;
+            padding-right:5px;
+            background-color:#c22131;
+            }
+            .sub_title{
+              font-size:10px;
+              color:#fff;
+              text-align:right;
+            }          
+        }
+
+}
+footer{
+  background-color:#000000;
+  width:100%;
+  height:235px;
+  font-size:12px;
+  float:left;
+  color:#6c6c6c;
+    .properties{
+      width:100%;
+      padding-left: 520px;
+      padding-top: 20px;
+      float:middle;
+      ul{ 
+        margin-left:0px;
+        display:inline;
+        list-style:none;
+        align:left;
+        li{
+          display:inline;
+          color:#fff;
+          margin-left:6px;  
+          float:middle;
+        }
+      }
+    }
+  .logo img {
+    float:middle;
+    border-left-style:dashed;
+    border-left-width:1px;
+    border-left-color:#3e3e3e;
+    margin-left:1083px;
+    padding-left: 40px;
+    padding-top: 100px;
+  }
+}
